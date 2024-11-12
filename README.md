@@ -44,5 +44,5 @@
 1. success: tesed with 9.3MB flow log file and 10000 records lookup_table.csv file, works as expected.
 2. failed: tested with empty flow log file, received "flow_logs.txt file is Empty" runtime exception, works as expected.
 3. failed: tested with empty look table file, received "lookup_table file is empty" runtime exception, works as expected.
-4. failed: tested with some of invalid content in flow_logs.txt(number elements of some rows are not 14). skipped the corrsponded lins, works as expected.
-5. failed: tested with some of invalid content in lookup_table.csv(number elements of some rows are not 3). skipped the corrsponded lins, works as expected.
+4. success: tested with some of invalid content in flow_logs.txt(number elements of some rows are not 14). skipped the corrsponded lins, works as expected.
+5. success: tested with some of invalid content in lookup_table.csv(number elements of some rows are not 3). skipped the corrsponded lins, works as expected.

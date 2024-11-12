@@ -1,0 +1,8 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+.idea
+flowlogparser.iml
+### Mac OS ###
+.DS_Store
+*.class
